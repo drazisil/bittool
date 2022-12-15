@@ -1,0 +1,20 @@
+{
+  "name": "bittool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "c8 -r text -r cobertura -r html mocha"
+  },
+  "keywords": [],
+  "author": "Drazi Crendraven <drazi@duck.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "4.3.4",
+    "@types/mocha": "10.0.1",
+    "c8": "7.12.0",
+    "chai": "4.3.7",
+    "mocha": "10.2.0"
+  }
+}
